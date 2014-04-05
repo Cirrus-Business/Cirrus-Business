@@ -18,7 +18,8 @@ import webapp2
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        self.response.write('Welcome to Deanbook!! /n Its time to get GAE!')
+        self.response.write('Welcome to Deanbook!!')
+        self.response.write('Its time to get GAE!')
 
 app = webapp2.WSGIApplication([
     ('/', MainHandler)
