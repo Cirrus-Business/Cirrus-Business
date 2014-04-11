@@ -16,15 +16,40 @@
 #
 import webapp2
 
+FORM_PAGE =  """ 
+<!doctype html>
+<html>
+  <body>
+    <form action="/shift" method="post">
+      <div><select name="employees">
+         <option value="bob">Bob</option>
+         <option value="guy">Pete</option>
+         <option value="tim">Tim</option>
+         <option value="steve">Steve</option>
+         </select>
+       </div>
+      <div><input type='button'></input>
+       </div>
+       
+      <div><input type="submit" value="Submit"></div>
+    </form>
+  </body>
+</html>
+
+"""
+
+
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-<<<<<<< HEAD
-        self.response.write('Welcome to Deanbook! /n ... time to get GAE')
-=======
-        self.response.write('Welcome to Deanbook!!')
-        self.response.write('Its time to get GAE!')
->>>>>>> 14cfa028727e0ff13fed8d95ecddfd657bb01546
+         self.response.write(FORM_PAGE)
 
+class ShiftHandler(webapp2.RequestHandler):
+    def post(self):
+        self.response.write("")
+        
+        
+        
 app = webapp2.WSGIApplication([
-    ('/', MainHandler)
+    ('/', MainHandler),
+    ('/shift', ShiftHandler),
 ], debug=True)
