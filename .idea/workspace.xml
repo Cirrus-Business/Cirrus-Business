@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a3de6ee6-f0e3-417e-ab64-fa9137a49bd6" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/app.yaml" afterPath="$PROJECT_DIR$/src/app.yaml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Cirrus-Business.iml" afterPath="$PROJECT_DIR$/.idea/Cirrus-Business.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Cirrus-Business.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,23 +30,21 @@
       <file leaf-file-name="form.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="13" selection-start="1985" selection-end="1985" vertical-scroll-proportion="-9.36" vertical-offset="616" max-vertical-offset="1190">
-              <folding>
-                <marker date="1396956894950" expanded="true" signature="564:2708" placeholder="..." />
-              </folding>
+            <state line="50" column="13" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0" vertical-offset="616" max-vertical-offset="1190">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="result.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/result.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="2" selection-start="411" selection-end="411" vertical-scroll-proportion="-6.46" vertical-offset="0" max-vertical-offset="833">
-              <folding />
-            </state>
-          </provider>
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="2" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="833">
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -61,7 +60,7 @@
       <file leaf-file-name="dbFile.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/frontEnd/dbFile.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+            <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
               <folding />
             </state>
           </provider>
@@ -70,10 +69,8 @@
       <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="60" selection-start="3594" selection-end="3594" vertical-scroll-proportion="0.39182281" vertical-offset="1725" max-vertical-offset="2312">
-              <folding>
-                <element signature="e#601#615#0" expanded="true" />
-              </folding>
+            <state line="17" column="18" selection-start="634" selection-end="634" vertical-scroll-proportion="0.18810512" vertical-offset="153" max-vertical-offset="2312">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,8 +100,8 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1378" />
-    <option name="height" value="744" />
+    <option name="width" value="1456" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -178,6 +175,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cirrus-Business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Cirrus-Business" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cirrusBusiness" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -194,6 +205,15 @@
     <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
     <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
     <property name="recentsLimit" value="5" />
+    <property name="options.lastSelected" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings />
+    </option>
   </component>
   <component name="RunManager">
     <configuration default="false" name="result.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/frontEnd/result.php">
@@ -231,7 +251,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1378" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -239,8 +259,8 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12555066" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.09030837" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11802575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.08655222" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -277,21 +297,19 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/frontEnd/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="47" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="617" max-vertical-offset="1190">
-          <folding>
-            <marker date="1396956894950" expanded="true" signature="564:2708" placeholder="..." />
-          </folding>
+        <state line="50" column="13" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0" vertical-offset="616" max-vertical-offset="1190">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="2" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="833">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/shifts.json">
@@ -310,14 +328,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding>
-            <element signature="e#601#615#0" expanded="true" />
-          </folding>
+        <state line="115" column="60" selection-start="3594" selection-end="3594" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="2312">
+          <folding />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="47" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0" vertical-offset="617" max-vertical-offset="1190">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/result.php">
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="2" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="247" max-vertical-offset="833">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/shifts.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="102">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontEnd/dbFile.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.py">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.yaml">
@@ -359,40 +413,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="13" selection-start="1985" selection-end="1985" vertical-scroll-proportion="-9.36" vertical-offset="616" max-vertical-offset="1190">
-          <folding>
-            <marker date="1396956894950" expanded="true" signature="564:2708" placeholder="..." />
-          </folding>
+        <state line="50" column="13" selection-start="1985" selection-end="1985" vertical-scroll-proportion="0.0" vertical-offset="616" max-vertical-offset="1190">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/result.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="2" selection-start="411" selection-end="411" vertical-scroll-proportion="-6.46" vertical-offset="0" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="2" selection-start="411" selection-end="411" vertical-scroll-proportion="0.0" vertical-offset="323" max-vertical-offset="833">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontEnd/dbFile.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="221">
+        <state line="7" column="0" selection-start="162" selection-end="162" vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="221">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="60" selection-start="3594" selection-end="3594" vertical-scroll-proportion="0.39182281" vertical-offset="1725" max-vertical-offset="2312">
-          <folding>
-            <element signature="e#601#615#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
       <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
         <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="18" selection-start="634" selection-end="634" vertical-scroll-proportion="0.18810512" vertical-offset="153" max-vertical-offset="2312">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
