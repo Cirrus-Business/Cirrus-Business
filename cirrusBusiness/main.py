@@ -16,8 +16,8 @@
 #
 import webapp2
 from google.appengine.ext import db
-from google.appengine.api import users
 from google.appengine.api.datastore import Get
+from cal import *
 
 
 FORM_PAGE =  """ 
@@ -47,6 +47,9 @@ FORM_PAGE =  """
         <br/>
         <input type="submit" value="Submit">
     </form>
+    <form method="post" action="/cal">
+            <button type="submit">Cal</button>
+        </form>
   </body>
 </html>
 
@@ -75,14 +78,17 @@ OTHER_PAGE4 = """
     </body>
     </html>"""
 
+
 class Shift(db.Model):
     employee = db.StringProperty()
     start = db.StringProperty()
     end = db.StringProperty()
 
+
 class MainHandler(webapp2.RequestHandler):
     def get(self):
          self.response.write(FORM_PAGE)
+
 
 class InfoHandler(webapp2.RequestHandler):
     def get(self):
@@ -104,7 +110,21 @@ class InfoHandler(webapp2.RequestHandler):
             self.response.write("<br/>" + j.start)
             self.response.write("<br/>" + j.end + "<br/><br/>")
         self.response.write(OTHER_PAGE4)
-           
+
+
+class CalHandler(webapp2.RequestHandler):
+    def post(self):
+        self.response.write(checkForUser())
+        if user:
+            self.response.write(showPersonSelector())
+        else:
+            self.response.write("oh noes")
+
+
+class CalDeetsHandler(webapp2.RequestHandler):
+    def post(self):
+        self.response.write(showDeets(self.request.get('name')))
+
 
 class ShiftHandler(webapp2.RequestHandler):
     def post(self):
@@ -127,4 +147,6 @@ app = webapp2.WSGIApplication([
     ('/', MainHandler),
     ('/shift', ShiftHandler),
     ('/info', InfoHandler),
+    ('/cal', CalHandler),
+    ('/calDeets', CalDeetsHandler),
 ], debug=True)
