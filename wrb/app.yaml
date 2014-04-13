@@ -1,11 +1,6 @@
-<<<<<<< HEAD
-application: cirrusbusiness-1
-version: 1
-=======
 # Replace 'ae-essence' with your application name
 application: ae-essence
 version: 1 
->>>>>>> 0a903ffdc388b19054f8d6ab88a82f047b78342f
 runtime: python27
 api_version: 1
 threadsafe: true

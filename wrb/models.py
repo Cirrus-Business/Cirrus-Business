@@ -3,28 +3,8 @@ import logging
 
 from hashlib import md5
 from google.appengine.ext import db
+from google.appengine.api import users
 
-<<<<<<< HEAD
-class Employee(db.Model):
-    firstName = db.StringProperty(required=True)
-    lastName = db.StringProperty(required=True)
-    streetAddress = db.StringProperty()
-    suburb = db.StringProperty()
-    state = db.StringProperty()
-    mobile = db.StringProperty()
-    #user the user_id for logged in user and check against this to get current user deets 
-    userID = db.StringProperty(required=True)
-    email = db.StringProperty(required=True)
-    dollarsPerHour = db.FloatProperty(required=True)
-
-class Shift(db.Model):
-    userID = db.StringProperty(required=True)
-    startDate = db.DateProperty()
-    startTime = db.TimeProperty()
-    endDate = db.DateProperty()
-    endTime = db.TimeProperty()
-    paid = db.BooleanProperty()
-=======
 import mc
 
 
@@ -166,4 +146,3 @@ class YourCustomModel(db.Model):
     demo_boolean_property = db.BooleanProperty(default=True)
     demo_integer_property = db.IntegerProperty(default=1)
     demo_datetime_property = db.DateTimeProperty(auto_now_add=True)
->>>>>>> 0a903ffdc388b19054f8d6ab88a82f047b78342f
